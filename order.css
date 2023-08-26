@@ -1,0 +1,49 @@
+/* Custom styling for the form */
+#form-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the form fields */
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Center the form on the page */
+.container-fluid.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for the "Place Order" button */
+#form-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#form-button:hover {
+    background-color: #218838;
+}
+
+/* Add padding to the form elements */
+.form-field {
+    padding: 5px 0;
+}
+
+/* Style for the header and horizontal lines */
+h4 {
+    margin-top: 0;
+}
+
+hr {
+    margin: 15px 0;
+    border: 1px solid #ccc;
+}
